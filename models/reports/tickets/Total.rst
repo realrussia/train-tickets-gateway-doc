@@ -1,11 +1,13 @@
-#Total
+====
+Total
+====
 
- 1.  string **bookedTickets**;
+#.  string **bookedTickets**;
 
- 1.  string **cancelledTickets**;
+#.  string **cancelledTickets**;
 
- 1.  string **moneyOperations**;
+#.  string **moneyOperations**;
 
- 1.  string **perPeriod**;
+#.  string **perPeriod**;
 
- 1.  string **balance**;
+#.  string **balance**;

@@ -1,21 +1,23 @@
-#Report
+====
+Report
+====
 
- 1.  string **title**;
+#.  string **title**;
 
- 1.  string **currency**;
+#.  string **currency**;
 
- 1.  string **date1**;
+#.  string **date1**;
 
- 1.  string **date2**;
+#.  string **date2**;
 
- 1.  string **user**;
+#.  string **user**;
 
- 1.  string **creationDate**;
+#.  string **creationDate**;
 
- 1.  [Ticket](Ticket.rst)[] **bookedTickets**;
+#.  `Ticket <Ticket.rst>`_\[] **bookedTickets**;
 
- 1.  [Ticket](Ticket.rst)[] **cancelledTickets**;
+#.  `Ticket <Ticket.rst>`_\[] **cancelledTickets**;
 
- 1.  [MoneyOperation](MoneyOperation.rst)[] **moneyOperations**;
+#.  `MoneyOperation <MoneyOperation.rst>`_\[] **moneyOperations**;
 
- 1.  [Total](Total.rst) **total**;
+#.  `Total <Total.rst>`_ **total**;

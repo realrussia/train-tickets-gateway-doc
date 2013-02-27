@@ -1,5 +1,7 @@
-#ConfirmationResult
+====
+ConfirmationResult
+====
 
- 1.  int **success**;
+#.  int **success**;
 
- 1.  [Order](Order.rst) **order** This is permanent order;
+#.  `Order <Order.rst>`_ **order** This is permanent order;

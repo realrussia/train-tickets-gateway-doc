@@ -1,11 +1,13 @@
-#BookingCacheTicket
+====
+BookingCacheTicket
+====
 
- Temporary booking ticket
+Temporary booking ticket
 
- 1.  string **placeNumber**;
+#.  string **placeNumber**;
 
- 1.  int **placesCount**;
+#.  int **placesCount**;
 
- 1.  [Person](Person.rst)[] **passengers**;
+#.  `Person <Person.rst>`_\[] **passengers**;
 
- 1.  float **price**;
+#.  float **price**;

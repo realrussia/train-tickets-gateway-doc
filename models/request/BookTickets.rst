@@ -1,15 +1,17 @@
-#BookTickets
+====
+BookTickets
+====
 
- 1.  int **st1** Departure station Id;
+#.  int **st1** Departure station Id;
 
- 1.  int **st2** Arrival station Id;
+#.  int **st2** Arrival station Id;
 
- 1.  string **dt** Departure date;
+#.  string **dt** Departure date;
 
- 1.  string **trainNumber**;
+#.  string **trainNumber**;
 
- 1.  int **carriageClassId**;
+#.  int **carriageClassId**;
 
- 1.  [Selection](Selection.rst) **selection**;
+#.  `Selection <Selection.rst>`_ **selection**;
 
- 1.  [Ticket](Ticket.rst)[] **tickets**;
+#.  `Ticket <Ticket.rst>`_\[] **tickets**;

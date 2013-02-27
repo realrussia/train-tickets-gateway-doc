@@ -1,3 +1,5 @@
-#SimpleOperationResult
+====
+SimpleOperationResult
+====
 
- 1.  int **success**;
+#.  int **success**;

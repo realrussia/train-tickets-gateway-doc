@@ -1,7 +1,9 @@
-#Person
+====
+Person
+====
 
- 1.  int **documentTypeId**;
+#.  int **documentTypeId**;
 
- 1.  string **documentNumber**;
+#.  string **documentNumber**;
 
- 1.  string **name**;
+#.  string **name**;

@@ -1,5 +1,7 @@
-#Error
+====
+Error
+====
 
- 1.  int **code**;
+#.  int **code**;
 
- 1.  string **description**;
+#.  string **description**;

@@ -1,11 +1,13 @@
-#ServiceClass
+====
+ServiceClass
+====
 
- 1.  int **carriageClassId**;
+#.  int **carriageClassId**;
 
- 1.  string **services**;
+#.  string **services**;
 
- 1.  [Carriage](Carriage.rst)[] **carriages**;
+#.  `Carriage <Carriage.rst>`_\[] **carriages**;
 
- 1.  int **costForTwoPlaces** 1 - true. 0 - false;
+#.  int **costForTwoPlaces** 1 - true. 0 - false;
 
- 1.  float **price**;
+#.  float **price**;

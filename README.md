@@ -5,13 +5,13 @@ To use this gateway you need to contact us and get details for using.
 
 Gateway has 2 controllers:
 
- * [Information][]
- * [Tickets][]
+ * [Information]()
+ * [Tickets]()
 
 
 
-[Information]: InformationController.md "Specification of Information controller"
-[Tickets]: TicketsController.md "Specification of Tickets controller"
+[Information]: controllers/InformationController.rst "Specification of Information controller"
+[Tickets]: controllers/TicketsController.rst "Specification of Tickets controller"
 
 Result of all methods of controllers is **xml**.
 

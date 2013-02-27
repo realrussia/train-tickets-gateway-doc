@@ -1,13 +1,15 @@
-#Ticket
+====
+Ticket
+====
 
- 1.  string **ticketId**;
+#.  string **ticketId**;
 
- 1.  string **registrationType**;
+#.  string **registrationType**;
 
- 1.  string **status**;
+#.  string **status**;
 
- 1.  string **amount**;
+#.  string **amount**;
 
- 1.  string **bookingDate**;
+#.  string **bookingDate**;
 
- 1.  string **cancellationDate**;
+#.  string **cancellationDate**;

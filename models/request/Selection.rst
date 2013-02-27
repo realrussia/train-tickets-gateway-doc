@@ -1,11 +1,13 @@
-#Selection
+====
+Selection
+====
 
- 1.  string **carriageNumber**;
+#.  string **carriageNumber**;
 
- 1.  string **placesRange** Range in format /\d(-\d)?/;
+#.  string **placesRange** Range in format ``/\d(-\d)?/``;
 
- 1.  int **registrationType**;
+#.  int **registrationType**;
 
- 1.  int **tier**;
+#.  int **tier**;
 
- 1.  int **cabinGenderType**;
+#.  int **cabinGenderType**;

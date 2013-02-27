@@ -1,9 +1,11 @@
-#Price
+====
+Price
+====
 
- 1.  string **currency**;
+#.  string **currency**;
 
- 1.  float **originalPrice**;
+#.  float **originalPrice**;
 
- 1.  float **refund**;
+#.  float **refund**;
 
- 1.  float **total**;
+#.  float **total**;

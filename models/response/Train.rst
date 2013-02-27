@@ -1,21 +1,23 @@
-#Train
+====
+Train
+====
 
- 1.  int **station1Id**;
+#.  int **station1Id**;
 
- 1.  int **station2Id**;
+#.  int **station2Id**;
 
- 1.  string **departureDateTime**;
+#.  string **departureDateTime**;
 
- 1.  string **arrivalDateTime**;
+#.  string **arrivalDateTime**;
 
- 1.  int **runningTime**;
+#.  int **runningTime**;
 
- 1.  string **trainNumber**;
+#.  string **trainNumber**;
 
- 1.  string **trainName**;
+#.  string **trainName**;
 
- 1.  bool **eregIsAvailable**;
+#.  bool **eregIsAvailable**;
 
- 1.  string **services**;
+#.  string **services**;
 
- 1.  [ServiceClass](ServiceClass.rst)[] **serviceClasses**;
+#.  `ServiceClass <ServiceClass.rst>`_\[] **serviceClasses**;

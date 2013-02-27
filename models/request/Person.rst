@@ -1,15 +1,17 @@
-#Person
+====
+Person
+====
 
- 1.  string **name**;
+#.  string **name**;
 
- 1.  string **middleName**;
+#.  string **middleName**;
 
- 1.  string **surname**;
+#.  string **surname**;
 
- 1.  string **birthDate**;
+#.  string **birthDate**;
 
- 1.  string **sex**;
+#.  string **sex**;
 
- 1.  string **citizenshipId**;
+#.  string **citizenshipId**;
 
- 1.  [Document](Document.rst) **document**;
+#.  `Document <Document.rst>`_ **document**;

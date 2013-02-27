@@ -1,17 +1,19 @@
-#Order
+====
+Order
+====
 
- 1.  string **referenceNumber**;
+#.  string **referenceNumber**;
 
- 1.  int **bookingTransactionId**;
+#.  int **bookingTransactionId**;
 
- 1.  [Train](Train.rst) **train**;
+#.  `Train <Train.rst>`_ **train**;
 
- 1.  float **price**;
+#.  float **price**;
 
- 1.  int **carriageClass** Carriage class Id;
+#.  int **carriageClass** Carriage class Id;
 
- 1.  string **services** Services Ids divided by ",";
+#.  string **services** Services Ids divided by ",";
 
- 1.  string **carriageNumber**;
+#.  string **carriageNumber**;
 
- 1.  [Ticket](Ticket.rst)[] **tickets**;
+#.  `Ticket <Ticket.rst>`_\[] **tickets**;
