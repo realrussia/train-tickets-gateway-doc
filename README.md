@@ -5,8 +5,8 @@ To use this gateway you need to contact us and get details for using.
 
 Gateway has 2 controllers:
 
- * [Information]()
- * [Tickets]()
+ * [Information][]
+ * [Tickets][]
 
 
 
