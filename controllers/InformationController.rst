@@ -25,7 +25,7 @@ Example of request:
 
 ``/information/getSchedule?&user=username&dt=28032013&st1=8631&st2=11783``
 
-Result: `Train <../models/response/Schedule.rst>`_
+Result: `Schedule <../models/response/Schedule.rst>`_
 
 .. _getTrain:
 getTrain
