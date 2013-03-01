@@ -8,6 +8,25 @@ Path:
 
 Provide different information.
 
+.. _getSchedule:
+getSchedule
+----
+Method: GET
+
+Information about available trains for passed route and date
+
+Parameters:
+
+* st1 - Id of station of departure;
+* st2 - Id of station of arrival;
+* dt - date in format `dd.mm.YYYY`
+
+Example of request:
+
+``/information/getSchedule?&user=username&dt=28032013&st1=8631&st2=11783``
+
+Result: `Train <../models/response/Schedule.rst>`_
+
 .. _getTrain:
 getTrain
 ----
