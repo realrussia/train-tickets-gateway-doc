@@ -4,9 +4,9 @@ BookingCacheTicket
 
 Temporary booking ticket
 
-#.  string **placeNumber**;
+#.  string **place_number**;
 
-#.  int **placesCount**;
+#.  int **places_count**;
 
 #.  `Person <Person.rst>`_\[] **passengers**;
 

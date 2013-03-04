@@ -4,14 +4,14 @@ Person
 
 #.  string **name**;
 
-#.  string **middleName**;
+#.  string **middle_name**;
 
 #.  string **surname**;
 
-#.  string **birthDate**;
+#.  string **birth_date**;
 
-#.  string **sex**;
+#.  int **sex**;
 
-#.  string **citizenshipId**;
+#.  int **citizenship_id**;
 
 #.  `Document <Document.rst>`_ **document**;

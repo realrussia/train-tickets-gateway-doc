@@ -8,9 +8,9 @@ BookTickets
 
 #.  string **dt** Departure date;
 
-#.  string **trainNumber**;
+#.  string **train_number**;
 
-#.  int **carriageClassId**;
+#.  int **carriage_class_id**;
 
 #.  `Selection <Selection.rst>`_ **selection**;
 

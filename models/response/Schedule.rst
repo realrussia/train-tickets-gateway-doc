@@ -6,6 +6,6 @@ Schedule
 
 #.  int **station2**;
 
-#.  string **departureDate**;
+#.  string **departure_date**;
 
 #.  `Train <Train.rst>`_\[] **trains**;

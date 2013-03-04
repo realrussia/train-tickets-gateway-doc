@@ -3,25 +3,25 @@
     <st1>8631</st1>
     <st2>11783</st2>
     <dt>22.03.2013</dt>
-    <trainNumber>020У</trainNumber>
-    <carriageClassId>1</carriageClassId>
+    <train_number>020У</train_number>
+    <carriage_class_id>1</carriage_class_id>
     <selection>
-        <carriageNumber>1</carriageNumber>
-        <placesRange>1-30</placesRange>
-        <registrationType>2</registrationType>
+        <carriage_number>1</carriage_number>
+        <places_range>1-30</places_range>
+        <registration_type>2</registration_type>
         <tier>1</tier>
-        <cabinGenderType>1</cabinGenderType>
+        <cabin_gender_type>1</cabin_gender_type>
     </selection>
     <tickets>
         <ticket>
             <passengers>
                 <passenger>
                     <name>Bertran</name>
-                    <middleName>Hugo</middleName>
+                    <middle_name>Hugo</middle_name>
                     <surname>Russel</surname>
-                    <birthDate>24.12.1971</birthDate>
+                    <birth_date>24.12.1971</birth_date>
                     <sex>1</sex>
-                    <citizenshipId>12</citizenshipId>
+                    <citizenship_id>12</citizenship_id>
                     <document>
                         <type>6</type>
                         <number>123456789</number>
@@ -33,11 +33,11 @@
             <passengers>
                 <passenger>
                     <name>Marcelina</name>
-                    <middleName/>
+                    <middle_name/>
                     <surname>Russel</surname>
-                    <birthDate>14.03.1975</birthDate>
+                    <birth_date>14.03.1975</birth_date>
                     <sex>0</sex>
-                    <citizenshipId>12</citizenshipId>
+                    <citizenship_id>12</citizenship_id>
                     <document>
                         <type>6</type>
                         <number>237469928</number>
@@ -49,11 +49,11 @@
             <passengers>
                 <passenger>
                     <name>Annush</name>
-                    <middleName>Regina</middleName>
+                    <middle_name>Regina</middle_name>
                     <surname>Russel</surname>
-                    <birthDate>14.03.2008</birthDate>
+                    <birth_date>14.03.2008</birth_date>
                     <sex>0</sex>
-                    <citizenshipId>12</citizenshipId>
+                    <citizenship_id>12</citizenship_id>
                     <document>
                         <type>6</type>
                         <number>00112244888</number>

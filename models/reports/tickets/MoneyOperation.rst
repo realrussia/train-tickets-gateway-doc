@@ -2,6 +2,6 @@
 MoneyOperation
 ====
 
-#.  string **creationDate**;
+#.  string **creation_date**;
 
 #.  string **amount**;

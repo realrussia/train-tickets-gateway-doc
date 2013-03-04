@@ -2,8 +2,8 @@
 Person
 ====
 
-#.  int **documentTypeId**;
+#.  int **document_type_id**;
 
-#.  string **documentNumber**;
+#.  string **document_number**;
 
 #.  string **name**;

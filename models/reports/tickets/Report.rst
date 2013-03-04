@@ -12,12 +12,12 @@ Report
 
 #.  string **user**;
 
-#.  string **creationDate**;
+#.  string **creation_date**;
 
-#.  `Ticket <Ticket.rst>`_\[] **bookedTickets**;
+#.  `Ticket <Ticket.rst>`_\[] **booked_tickets**;
 
-#.  `Ticket <Ticket.rst>`_\[] **cancelledTickets**;
+#.  `Ticket <Ticket.rst>`_\[] **cancelled_tickets**;
 
-#.  `MoneyOperation <MoneyOperation.rst>`_\[] **moneyOperations**;
+#.  `MoneyOperation <MoneyOperation.rst>`_\[] **money_operations**;
 
 #.  `Total <Total.rst>`_ **total**;

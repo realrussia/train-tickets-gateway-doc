@@ -2,22 +2,22 @@
 Train
 ====
 
-#.  int **station1Id**;
+#.  int **station1_id**;
 
-#.  int **station2Id**;
+#.  int **station2_id**;
 
-#.  string **departureDateTime**;
+#.  string **departure_date_time**;
 
-#.  string **arrivalDateTime**;
+#.  string **arrival_date_time**;
 
-#.  int **runningTime**;
+#.  int **running_time**;
 
-#.  string **trainNumber**;
+#.  string **train_number**;
 
-#.  string **trainName**;
+#.  string **train_name**;
 
-#.  bool **eregIsAvailable**;
+#.  bool **ereg_is_available**;
 
 #.  string **services**;
 
-#.  `ServiceClass <ServiceClass.rst>`_\[] **serviceClasses**;
+#.  `ServiceClass <ServiceClass.rst>`_\[] **service_classes**;

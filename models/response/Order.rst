@@ -2,18 +2,18 @@
 Order
 ====
 
-#.  string **referenceNumber**;
+#.  string **reference_number**;
 
-#.  int **bookingTransactionId**;
+#.  int **booking_transaction_id**;
 
 #.  `Train <Train.rst>`_ **train**;
 
 #.  float **price**;
 
-#.  int **carriageClass** Carriage class Id;
+#.  int **carriage_class** Carriage class Id;
 
 #.  string **services** Services Ids divided by ",";
 
-#.  string **carriageNumber**;
+#.  string **carriage_number**;
 
 #.  `Ticket <Ticket.rst>`_\[] **tickets**;

@@ -2,12 +2,12 @@
 Selection
 ====
 
-#.  string **carriageNumber**;
+#.  string **carriage_number**;
 
-#.  string **placesRange** Range in format ``/\d(-\d)?/``;
+#.  string **places_range** Range in format ``/\d(-\d)?/``;
 
-#.  int **registrationType**;
+#.  int **registration_type**;
 
 #.  int **tier**;
 
-#.  int **cabinGenderType**;
+#.  int **cabin_gender_type**;

@@ -4,7 +4,7 @@ Price
 
 #.  string **currency**;
 
-#.  float **originalPrice**;
+#.  float **original_price**;
 
 #.  float **refund**;
 
