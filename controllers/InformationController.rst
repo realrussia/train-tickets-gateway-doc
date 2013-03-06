@@ -23,7 +23,7 @@ Parameters:
 
 Example of request:
 
-``/information/getSchedule?&user=username&dt=28032013&st1=8631&st2=11783``
+``/information/getSchedule?&user=username&dt=28.03.2013&st1=8631&st2=11783``
 
 Result: `Schedule <../models/response/Schedule.rst>`_
 
@@ -43,7 +43,7 @@ Parameters:
 
 Example of request:
 
-``/information/getTrain?&user=username&dt=28032013&st1=8631&st2=11783&train=020%D0%A3``
+``/information/getTrain?&user=username&dt=28.03.2013&st1=8631&st2=11783&train=020%D0%A3``
 
 Result: `Train <../models/response/Train.rst>`_
 
