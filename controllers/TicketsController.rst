@@ -17,7 +17,7 @@ Using this method you start thr booking operation. To finish it you should use c
 
 Parameters:
 
-* params - Contain XML with tickets details. `Model <../models/request/BookTickets.rst>`_. `Example <examples/bookTickets.xml>`_;
+* params - Contain XML with tickets details. `Model <../models/request/BookTickets.rst>`_. `Example <../examples/bookTickets.xml>`_;
 
 Example of request:
 

@@ -2,12 +2,12 @@
 Total
 ====
 
-#.  string **booked_tickets**;
+#.  float **booked_tickets**;
 
-#.  string **cancelled_tickets**;
+#.  float **cancelled_tickets**;
 
-#.  string **money_operations**;
+#.  float **money_operations**;
 
-#.  string **per_period**;
+#.  float **per_period**;
 
-#.  string **balance**;
+#.  float **balance**;

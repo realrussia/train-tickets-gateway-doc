@@ -2,13 +2,13 @@
 Ticket
 ====
 
-#.  string **ticket_id**;
+#.  int **ticket_id**;
 
-#.  string **registration_type**;
+#.  int **registration_type**;
 
-#.  string **status**;
+#.  int **status**;
 
-#.  string **amount**;
+#.  float **amount**;
 
 #.  string **booking_date**;
 
