@@ -17,7 +17,7 @@ Using this method you start thr booking operation. To finish it you should use c
 
 Parameters:
 
-* params - Contain XML with tickets details. `Model <../models/request/BookTickets.rst>`_. `Example <../examples/bookTickets.xml>`_;
+* params - Parameter contains XML with tickets details. See `Model <../models/request/BookTickets.rst>`_ specification and `example <../examples/bookTickets.xml>`_ in XML-format;
 
 Example of request:
 
@@ -81,7 +81,7 @@ changeRegistrationType
 ----
 Method: GET
 
-Changing of registration type of passed tickets.
+Changing of registration type of specified tickets.
 
 Parameters:
 

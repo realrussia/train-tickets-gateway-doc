@@ -62,7 +62,7 @@ Example of request:
 
 ``/information/getOrder?user=username&id=10174``
 
-Result: [Order](../models/response/Order.rst)
+Result: `Order <../models/response/Order.rst>`_
 
 .. _getReport:
 getReport
@@ -77,13 +77,13 @@ Report for operation during selected period. It include:
 
 Parameters:
 
-* dt1 - First time bound
-* dt2 - Second time bound
+* dt1 - First time bound. Time = 00:00;
+* dt2 - Second time bound. Time = 23:59.
 
-Parameters should be in format `dd.mm.YYYY`. Dates interprets as GMT+0. Time of first bound = 00:00, and the second = 23:59
+Parameters should be in format `dd.mm.YYYY`. Dates interprets as GMT+0.
 
 Example of request:
 
 ``/information/getReport?user=username&dt1=01.01.2013&dt2=01.03.2013``
 
-Result: [Order](../models/reports/tickets/Report.rst)
+Result: `Order <../models/reports/tickets/Report.rst>`_
