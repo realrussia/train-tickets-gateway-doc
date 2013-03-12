@@ -2,10 +2,6 @@
 Ticket
 ====
 
-My short description
-
-Full description here
-
 #.  int **ticket_id** Identifier of permanent ticket;
 
 #.  int **registration_type** Registration type Id;
@@ -21,3 +17,4 @@ Full description here
 #.  string **cancellation_date** Date of cancellation. If ticket not cancelled field will be empty;
 
 #.  `Person <Person.rst>`_\[] **passengers** Passengers information;
+

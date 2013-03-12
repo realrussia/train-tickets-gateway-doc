@@ -19,3 +19,4 @@ Carriage
 #.  string **free_place_numbers** Numbers of available places;
 
 #.  `GenderDependentAvailability <GenderDependentAvailability.rst>`_ **gender_dependent_availability** For carriages with male/female service this property will contain gender dependent availability;
+

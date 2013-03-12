@@ -8,6 +8,7 @@ Path:
 
 Provide different information.
 
+
 .. _getSchedule:
 getSchedule
 ----
@@ -26,6 +27,7 @@ Example of request:
 ``/information/getSchedule?&user=username&dt=28.03.2013&st1=8631&st2=11783``
 
 Result: `Schedule <../models/response/Schedule.rst>`_
+
 
 .. _getTrain:
 getTrain
@@ -47,6 +49,7 @@ Example of request:
 
 Result: `Train <../models/response/Train.rst>`_
 
+
 .. _getOrder:
 getOrder
 ----
@@ -63,6 +66,7 @@ Example of request:
 ``/information/getOrder?user=username&id=10174``
 
 Result: `Order <../models/response/Order.rst>`_
+
 
 .. _getReport:
 getReport
@@ -87,3 +91,4 @@ Example of request:
 ``/information/getReport?user=username&dt1=01.01.2013&dt2=01.03.2013``
 
 Result: `Order <../models/reports/tickets/Report.rst>`_
+

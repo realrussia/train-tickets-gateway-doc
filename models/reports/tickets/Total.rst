@@ -11,3 +11,4 @@ Total
 #.  float **per_period**;
 
 #.  float **balance**;
+

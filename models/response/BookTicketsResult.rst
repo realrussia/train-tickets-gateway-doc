@@ -2,8 +2,6 @@
 BookTicketsResult
 ====
 
-Temporary booking order. It will be removed after confirmation or declination
-
 #.  int **pre_order_id** Id of temporary booking order;
 
 #.  `Train <Train.rst>`_ **train**;
@@ -21,3 +19,4 @@ Temporary booking order. It will be removed after confirmation or declination
 #.  float **price**;
 
 #.  `BookingCacheTicket <BookingCacheTicket.rst>`_\[] **tickets**;
+

@@ -8,6 +8,7 @@ Path:
 
 Provide methods for booking, cancellation, editing tickets etc.
 
+
 .. _bookTickets:
 bookTickets
 ----
@@ -24,6 +25,7 @@ Example of request:
 ``/tickets/bookTicket``
 
 Result: `Train <../models/response/Train.rst>`_
+
 
 .. _confirm:
 confirm
@@ -42,6 +44,7 @@ Example of request:
 
 Result: `CancellationResult <../models/response/CancellationResult.rst>`_
 
+
 .. _decline:
 decline
 ----
@@ -58,6 +61,7 @@ Example of request:
 ``/tickets/decline?user=acp_test&sid=92``
 
 Result: `SimpleOperationResult <../models/response/SimpleOperationResult.rst>`_
+
 
 .. _cancel:
 cancel
@@ -76,6 +80,7 @@ Example of request:
 
 Result: `SimpleOperationResult <../models/response/SimpleOperationResult.rst>`_
 
+
 .. _changeRegistrationType:
 changeRegistrationType
 ----
@@ -93,3 +98,4 @@ Example of request:
 ``/tickets/changeRegistrationType?user=acp_test&tickets=280,281&registrationType=2``
 
 Result: `SimpleOperationResult <../models/response/SimpleOperationResult.rst>`_
+

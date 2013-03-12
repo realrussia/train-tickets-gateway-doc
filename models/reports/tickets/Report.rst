@@ -21,3 +21,4 @@ Report
 #.  `MoneyOperation <MoneyOperation.rst>`_\[] **money_operations**;
 
 #.  `Total <Total.rst>`_ **total**;
+

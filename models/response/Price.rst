@@ -9,3 +9,4 @@ Price
 #.  float **refund**;
 
 #.  float **total**;
+

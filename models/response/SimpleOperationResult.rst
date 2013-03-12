@@ -3,3 +3,4 @@ SimpleOperationResult
 ====
 
 #.  int **success**;
+

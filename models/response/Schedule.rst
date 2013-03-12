@@ -9,3 +9,4 @@ Schedule
 #.  string **departure_date**;
 
 #.  `Train <Train.rst>`_\[] **trains**;
+

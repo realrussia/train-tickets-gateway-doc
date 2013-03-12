@@ -9,3 +9,4 @@ GenderDependentAvailability
 #.  string **woman** Available places in woman cabins;
 
 #.  string **mixed** Available places in mixed cabins;
+
