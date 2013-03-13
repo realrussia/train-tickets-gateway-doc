@@ -6,7 +6,7 @@ Path:
 
 ``/tickets/[_methodName_]``
 
-Provide methods for booking, cancellation, editing tickets etc.
+Provides methods for booking, confirming, declining, cancelling and editing tickets, as well as changing the registration type.
 
 
 .. _bookTickets:
@@ -14,11 +14,11 @@ bookTickets
 ----
 Method: POST
 
-Using this method you start thr booking operation. To finish it you should use confirm_ or decline_. After successful booking will be created temporary order and selected places will be reserved. Use his ID to cancel or decline it.
+Use this method to start the booking operation. If successful, a temporary order will be created and selected places will be reserved.
 
 Parameters:
 
-* params - Parameter contains XML with tickets details. See `Model <../models/request/BookTickets.rst>`_ specification and `example <../examples/bookTickets.xml>`_ in XML-format;
+* params - Contain XML with tickets details. See `Model <../models/request/BookTickets.rst>`_ specification and `example <../examples/bookTickets.xml>`_ in XML-format
 
 Example of request:
 
@@ -32,11 +32,11 @@ confirm
 ----
 Method: GET
 
-Use this method to confirm incomplete booking operation (bookTickets_). After confirmation will be created permanent order and money will be taken from your deposit.
+Use this method to confirm an incomplete booking (bookTickets_). After confirmation, a permanent order will be created and money will be taken from your account.
 
 Parameters:
 
-* sid - ID of temporary order;
+* sid - ID of temporary order
 
 Example of request:
 
@@ -50,11 +50,11 @@ decline
 ----
 Method: GET
 
-Use this method to decline incomplete booking operation (bookTickets_). After confirmation will be removed permanent order. Order will be automatically declined after 15 minutes.
+Use this method to decline an incomplete booking (bookTickets_). After confirmation the permanent order will be removed. Orders which are not confirmed will be automatically declined after 15 minutes.
 
 Parameters:
 
-* sid - ID of temporary order;
+* sid - ID of temporary order
 
 Example of request:
 
@@ -68,11 +68,11 @@ cancel
 ----
 Method: GET
 
-Cancellation tickets of permanent order.
+Use this method to cancel tickets from a permanent order.
 
 Parameters:
 
-* tickets - IDs of tickets divided by ",";
+* tickets - IDs of tickets divided by ","
 
 Example of request:
 
@@ -86,12 +86,12 @@ changeRegistrationType
 ----
 Method: GET
 
-Changing of registration type of specified tickets.
+Use this method to change the registration type of passed tickets.
 
 Parameters:
 
-* tickets - IDs of tickets divided by ",";
-* registrationType - registration type ID;
+* tickets - IDs of tickets divided by ","
+* registrationType - registration type ID
 
 Example of request:
 
