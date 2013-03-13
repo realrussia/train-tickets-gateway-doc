@@ -85,7 +85,11 @@ Parameters:
 * dt2 - Second time bound
 
 Parameters should be in format `dd.mm.YYYY`
-Dates interprets as GMT+0 Time of first bound = 00:00, and the second = 23:59
+
+Dates interprets as GMT+0
+
+Time of first bound = 00:00, and the second = 23:59
+
 
 Example of request:
 
