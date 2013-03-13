@@ -91,5 +91,5 @@ Example of request:
 
 ``/information/getReport?user=username&dt1=01.01.2013&dt2=01.03.2013``
 
-Result: `Order <../models/reports/tickets/Report.rst>`_
+Result: `Report <../models/reports/tickets/Report.rst>`_
 
