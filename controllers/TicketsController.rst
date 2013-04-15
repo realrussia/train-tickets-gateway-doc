@@ -22,9 +22,9 @@ Parameters:
 
 Example of request:
 
-``/tickets/bookTicket``
+``/tickets/bookTickets``
 
-Result: `Train <../models/response/Train.rst>`_
+Result: `BookTicketsResult <../models/response/BookTicketsResult.rst>`_
 
 
 .. _confirm:
@@ -42,7 +42,7 @@ Example of request:
 
 ``/tickets/confirm?user=acp_test&sid=92``
 
-Result: `CancellationResult <../models/response/CancellationResult.rst>`_
+Result: `ConfirmationResult <../models/response/ConfirmationResult.rst>`_
 
 
 .. _decline:
@@ -98,4 +98,22 @@ Example of request:
 ``/tickets/changeRegistrationType?user=acp_test&tickets=280,281&registrationType=2``
 
 Result: `SimpleOperationResult <../models/response/SimpleOperationResult.rst>`_
+
+
+.. _orderTickets:
+orderTickets
+----
+Method: POST
+
+This method used for creation of manually processed orders.
+
+Parameters:
+
+* params - Contain XML with tickets details. See `Model <../models/request/OrderTickets.rst>`_ specification and `example <../examples/orderTickets.xml>`_ in XML-format
+
+Example of request:
+
+``/tickets/orderTickets``
+
+Result: `OrderTicketsResult <../models/response/OrderTicketsResult.rst>`_
 

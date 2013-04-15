@@ -22,4 +22,6 @@ Exceptions in system:
 
 011. Requested date can not be in past
 
+012. Requested train not found
+
 

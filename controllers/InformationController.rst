@@ -56,6 +56,7 @@ getOrder
 Method: GET
 
 Provides information about the tickets and statuses of a permanent order.
+**Note**: this method used for orders created via `TicketsController::BookTickets <TicketsController.rst#bookTickets>`_
 
 Parameters:
 
@@ -66,6 +67,25 @@ Example of request:
 ``/information/getOrder?user=username&id=10174``
 
 Result: `Order <../models/response/Order.rst>`_
+
+
+.. _getOrderRequested:
+getOrderRequested
+----
+Method: GET
+
+Provides information about the tickets and statuses of a permanent order.
+**Note**: this method used for orders created via `TicketsController::OrderTickets <TicketsController.rst#orderTickets>`_
+
+Parameters:
+
+* id - Reference number of order
+
+Example of request:
+
+``/information/getOrderRequested?user=username&id=10174``
+
+Result: `OrderRequested <../models/response/OrderRequested.rst>`_
 
 
 .. _getReport:

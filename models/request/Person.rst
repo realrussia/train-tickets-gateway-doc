@@ -12,7 +12,7 @@ Person
 
 #.  int **sex**;
 
-#.  int **citizenship_id**;
+#.  string **citizenship**;
 
 #.  `Document <Document.rst>`_ **document**;
 

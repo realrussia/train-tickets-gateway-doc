@@ -8,6 +8,8 @@ ServiceClass
 
 #.  `Carriage <Carriage.rst>`_\[] **carriages**;
 
+#.  `SeatsAvailability <SeatsAvailability.rst>`_\[] **seats_availability**;
+
 #.  int **cost_for_two_places** 1 - true. 0 - false;
 
 #.  float **price**;

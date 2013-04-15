@@ -6,7 +6,7 @@ Order
 
 #.  int **booking_transaction_id**;
 
-#.  `Train <Train.rst>`_ **train**;
+#.  `TrainShort <TrainShort.rst>`_ **train**;
 
 #.  float **price**;
 
