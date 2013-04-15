@@ -12,7 +12,7 @@ Person
 
 #.  int **sex**;
 
-#.  string **citizenship**;
+#.  string **citizenship** Citizenship in format ISO 3166-1 alpha-2;
 
 #.  `Document <Document.rst>`_ **document**;
 

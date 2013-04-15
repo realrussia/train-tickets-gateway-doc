@@ -56,7 +56,7 @@ getOrder
 Method: GET
 
 Provides information about the tickets and statuses of a permanent order.
-**Note**: this method used for orders created via `TicketsController::BookTickets <TicketsController.rst#bookTickets>`_
+**Note**: this method used for orders created via `TicketsController::BookTickets <TicketsController.rst#booktickets>`_
 
 Parameters:
 
@@ -75,7 +75,7 @@ getOrderRequested
 Method: GET
 
 Provides information about the tickets and statuses of a permanent order.
-**Note**: this method used for orders created via `TicketsController::OrderTickets <TicketsController.rst#orderTickets>`_
+**Note**: this method used for orders created via `TicketsController::OrderTickets <TicketsController.rst#ordertickets>`_
 
 Parameters:
 
