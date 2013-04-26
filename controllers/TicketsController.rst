@@ -40,7 +40,7 @@ Parameters:
 
 Example of request:
 
-``/tickets/confirm?user=acp_test&sid=92``
+``/tickets/confirm?user=test_user&sid=92``
 
 Result: `ConfirmationResult <../models/response/ConfirmationResult.rst>`_
 
@@ -58,7 +58,7 @@ Parameters:
 
 Example of request:
 
-``/tickets/decline?user=acp_test&sid=92``
+``/tickets/decline?user=test_user&sid=92``
 
 Result: `SimpleOperationResult <../models/response/SimpleOperationResult.rst>`_
 
@@ -76,7 +76,7 @@ Parameters:
 
 Example of request:
 
-``/tickets/cancel?user=acp_test&tickets=279,280``
+``/tickets/cancel?user=test_user&tickets=279,280``
 
 Result: `SimpleOperationResult <../models/response/SimpleOperationResult.rst>`_
 
@@ -95,7 +95,7 @@ Parameters:
 
 Example of request:
 
-``/tickets/changeRegistrationType?user=acp_test&tickets=280,281&registrationType=2``
+``/tickets/changeRegistrationType?user=test_user&tickets=280,281&registrationType=2``
 
 Result: `SimpleOperationResult <../models/response/SimpleOperationResult.rst>`_
 

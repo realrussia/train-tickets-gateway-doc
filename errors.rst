@@ -24,4 +24,8 @@ Exceptions in system:
 
 012. Requested train not found
 
+013. Delivery type not found
+
+014. Not found class with required services on required train
+
 

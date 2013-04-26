@@ -2,13 +2,15 @@
 
 Before using this gateway you need to contact us (<info@realrussia.co.uk>) and get your _username_.
 
-This Gateway has 2 controllers:
+This Gateway has 3 controllers:
 
  * [Information][]
  * [Tickets][]
+ * [Reference][]
 
 [Information]: controllers/InformationController.rst "Specification of Information controller"
 [Tickets]: controllers/TicketsController.rst "Specification of Tickets controller"
+[Reference]: controllers/ReferenceController.rst "Reference book for all IDs used in system"
 
 For any technical queries please contact <victor@realrussia.co.uk>
 

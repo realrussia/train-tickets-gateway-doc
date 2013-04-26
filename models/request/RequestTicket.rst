@@ -6,3 +6,5 @@ RequestTicket
 
 #.  `Seat <Seat.rst>`_\[] **seats**;
 
+#.  `RequestTrain <RequestTrain.rst>`_ **train**;
+

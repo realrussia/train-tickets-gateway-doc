@@ -8,3 +8,5 @@ Seat
 
 #.  `RequestTicket <RequestTicket.rst>`_ **request_ticket**;
 
+#.  `\PriceCollection <\PriceCollection.rst>`_ **price**;
+
