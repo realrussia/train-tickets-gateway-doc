@@ -21,7 +21,7 @@
                     <surname>Russel</surname>
                     <birth_date>24.12.1971</birth_date>
                     <sex>1</sex>
-                    <citizenship_id>12</citizenship_id>
+                    <citizenship>LS</citizenship>
                     <document>
                         <type>6</type>
                         <number>123456789</number>
@@ -37,7 +37,7 @@
                     <surname>Russel</surname>
                     <birth_date>14.03.1975</birth_date>
                     <sex>0</sex>
-                    <citizenship_id>12</citizenship_id>
+                    <citizenship>CZ</citizenship>
                     <document>
                         <type>6</type>
                         <number>237469928</number>
@@ -53,7 +53,7 @@
                     <surname>Russel</surname>
                     <birth_date>14.03.2008</birth_date>
                     <sex>0</sex>
-                    <citizenship_id>12</citizenship_id>
+                    <citizenship>BR</citizenship>
                     <document>
                         <type>6</type>
                         <number>00112244888</number>
