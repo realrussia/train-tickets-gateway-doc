@@ -6,7 +6,7 @@ Path:
 
 ``/reference/[_methodName_]``
 
-Provides references for all ID returned in system.
+Provides references for all ID returned in system. Some results of this controller can be changed
 
 
 .. _carriageClasses:
@@ -131,6 +131,21 @@ Tier of tickets to book. Used in bookTickets method
 Example of request:
 
 ``/reference/tiers?user=test_user``
+
+Result: `Reference <../models/response/Reference.rst>`_
+
+
+.. _stations:
+stations
+----
+Method: GET
+
+List of used stations. Description contains country of station in format ISO 3166-1 alpha-2.
+NOTE: this list can be different between test server and production
+
+Example of request:
+
+``/reference/stations?user=test_user``
 
 Result: `Reference <../models/response/Reference.rst>`_
 
