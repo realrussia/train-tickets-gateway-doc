@@ -1,6 +1,6 @@
 #This is the documentation for the TrainsTicketsGateway
 
-Before using this gateway you need to contact us (<info@realrussia.co.uk>) and get your _username_.
+Before using this gateway you need to contact us (<support@realrussia.co.uk>) and get your _username_.
 
 This Gateway has 3 controllers:
 
@@ -12,9 +12,7 @@ This Gateway has 3 controllers:
 [Tickets]: controllers/TicketsController.rst "Specification of Tickets controller"
 [Reference]: controllers/ReferenceController.rst "Reference book for all IDs used in system"
 
-For any technical queries please contact <victor@realrussia.co.uk>
-
-For all other queries please contact <info@realrussia.co.uk>
+For all queries please contact <support@realrussia.co.uk>
 
 ##Notes
 
