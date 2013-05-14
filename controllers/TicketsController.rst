@@ -14,7 +14,7 @@ bookTickets
 ----
 Method: POST
 
-Use this method to start the booking operation. If successful, a temporary order will be created and selected places will be reserved. See `additional notes </bookTicketsNotes.rst>`_ for this method.
+Use this method to start the booking operation. If successful, a temporary order will be created and selected places will be reserved. See `additional notes </articles/bookTicketsNotes.rst>`_ for this method.
 
 Parameters:
 

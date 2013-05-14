@@ -20,5 +20,5 @@ Train
 
 #.  string **arrival_date_time**;
 
-#.  string **train_number**;
+#.  string **train_number** Train number is `transliterated </articles/trainNumbers.rst>`_;
 

@@ -8,7 +8,7 @@ RequestTrain
 
 #.  string **dt** Departure date;
 
-#.  string **train_number**;
+#.  string **train_number** Train number has to be `transliterated </articles/trainNumbers.rst>`_;
 
 #.  `RequestTicket <RequestTicket.rst>`_\[] **request_tickets**;
 

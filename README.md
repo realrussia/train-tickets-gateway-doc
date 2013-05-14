@@ -22,6 +22,6 @@ Each request (GET and POST) must be accompanied with your _username_ which has b
 
 Examples are present within the specifications of each method.
 
-If an error has occurred during the request process, this should return an [Error](/models/response/Error.rst). [List of possible errors](errors.rst).
+If an error has occurred during the request process, this should return an [Error](/models/response/Error.rst). [List of possible errors](articles/errors.rst).
 
 Certain tickets can be cancelled by clients themselves, for information about cancelled tickets use [getReport](/controllers/InformationController.rst#getreport)
