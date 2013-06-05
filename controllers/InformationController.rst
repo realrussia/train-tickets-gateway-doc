@@ -41,11 +41,11 @@ Parameters:
 * st1 - Id of station of departure
 * st2 - Id of station of arrival
 * dt - date in format `dd.mm.YYYY`
-* train - train number. At the moment with cyrillic litter in the end
+* train - train number. Train number has to be `transliterated </articles/trainNumbers.rst>`_
 
 Example of request:
 
-``/information/getTrain?&user=username&dt=28.03.2013&st1=8631&st2=11783&train=020%D0%A3``
+``/information/getTrain?&user=username&dt=28.03.2013&st1=8631&st2=11783&train=020U``
 
 Result: `Train <../models/response/Train.rst>`_
 
