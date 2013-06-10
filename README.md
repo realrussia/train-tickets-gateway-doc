@@ -7,16 +7,18 @@ This Gateway has 3 controllers:
  * [Information][]
  * [Tickets][]
  * [Reference][]
+ * [Files][]
 
 [Information]: controllers/InformationController.rst "Specification of Information controller"
 [Tickets]: controllers/TicketsController.rst "Specification of Tickets controller"
 [Reference]: controllers/ReferenceController.rst "Reference book for all IDs used in system"
+[Files]: controllers/FilesController.rst "Files for downloading"
 
 For all queries please contact <support@realrussia.co.uk>
 
 ##Notes
 
-Result of all methods of controllers is in **xml** format.
+Result of all methods of controllers is in **xml** format, excluding FilesController.
 
 Each request (GET and POST) must be accompanied with your _username_ which has been provided. 
 

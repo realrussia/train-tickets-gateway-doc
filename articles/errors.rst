@@ -30,6 +30,8 @@ Exceptions in system:
 
 0015. Process terminated by provider
 
+0016. Access rights violations
+
 1000. Internal application error
 
 1003. Please, apply to the help desk
