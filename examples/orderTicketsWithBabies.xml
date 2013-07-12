@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<request>
+    <request_trains>
+        <train>
+            <st1>8631</st1>
+            <st2>11783</st2>
+            <dt>22.03.2013</dt>
+            <train_number>030А</train_number>
+            <request_tickets>
+                <ticket reference_id="1001">
+                    <service_class>
+                        <carriage_class_id>1</carriage_class_id>
+                        <services>12,29</services>
+                    </service_class>
+                    <seats>
+                        <seat>
+                            <seat_type>6</seat_type>
+                            <passengers>
+                                <person>
+                                    <name>Bertran</name>
+                                    <middle_name>Hugo</middle_name>
+                                    <surname>Russel</surname>
+                                    <birth_date>24.12.1971</birth_date>
+                                    <sex>1</sex>
+                                    <citizenship>AM</citizenship>
+                                    <document>
+                                        <type>6</type>
+                                        <number>123456789</number>
+                                    </document>
+                                </person>
+                            </passengers>
+                        </seat>
+                    </seats>
+                </ticket>
+                <ticket reference_id="1002">
+                    <separate_place_for_baby>1</separate_place_for_baby>
+                    <service_class>
+                        <carriage_class_id>1</carriage_class_id>
+                        <services>12,29</services>
+                    </service_class>
+                    <seats>
+                        <seat>
+                            <seat_type>6</seat_type>
+                            <passengers>
+                                <person>
+                                    <name>Olivia</name>
+                                    <middle_name>Lorenzo</middle_name>
+                                    <surname>Russel</surname>
+                                    <birth_date>24.12.2012</birth_date>
+                                    <sex>1</sex>
+                                    <citizenship>AM</citizenship>
+                                    <document>
+                                        <type>6</type>
+                                        <number>987654321</number>
+                                    </document>
+                                </person>
+                            </passengers>
+                        </seat>
+                    </seats>
+                </ticket>
+            </request_tickets>
+        </train>
+    </request_trains>
+    <customer>
+        <name>Ivan Ivanov</name>
+        <phone>2352353252</phone>
+        <mobile_phone>626536534</mobile_phone>
+        <email>ivan.ivanov@gmail.com</email>
+        <comment>
+            Some additional description can be defined here
+        </comment>
+        <delivery id="14">
+            1st Main street, San Jose, United States, CA 12345
+        </delivery>
+    </customer>
+</request>

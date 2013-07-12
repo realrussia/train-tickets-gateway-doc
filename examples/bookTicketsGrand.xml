@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<request>
+    <st1>8631</st1>
+    <st2>11783</st2>
+    <dt>13.06.2013</dt>
+    <train_number>054Ch</train_number>
+    <carriage_class_id>1</carriage_class_id>
+    <selection>
+        <carriage_number>14</carriage_number>
+        <places_range>1-54</places_range>
+        <registration_type>2</registration_type>
+        <tier>1</tier>
+        <cabin_gender_type>1</cabin_gender_type>
+        <in_one_kupe>1</in_one_kupe>
+    </selection>
+    <tickets>
+        <ticket>
+            <passengers>
+                <person>
+                    <name>Bertran</name>
+                    <middle_name>Hugo</middle_name>
+                    <surname>Russel</surname>
+                    <birth_date>24.12.1971</birth_date>
+                    <sex>1</sex>
+                    <citizenship>LS</citizenship>
+                    <document>
+                        <type>6</type>
+                        <number>123456789</number>
+                    </document>
+                </person>
+                <person>
+                    <name>Marcelina</name>
+                    <middle_name/>
+                    <surname>Russel</surname>
+                    <birth_date>14.03.1975</birth_date>
+                    <sex>0</sex>
+                    <citizenship>CZ</citizenship>
+                    <document>
+                        <type>6</type>
+                        <number>237469928</number>
+                    </document>
+                </person>
+            </passengers>
+        </ticket>
+    </tickets>
+</request>
