@@ -6,7 +6,5 @@ Seat
 
 #.  `Person <Person.rst>`_\[] **passengers**;
 
-#.  `RequestTicket <RequestTicket.rst>`_ **request_ticket**;
-
 #.  `\PriceCollection <\PriceCollection.rst>`_ **price**;
 

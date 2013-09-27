@@ -16,3 +16,5 @@ Person
 
 #.  `Document <Document.rst>`_ **document**;
 
+#.  int **tariff** ID of tariff;
+

@@ -4,6 +4,8 @@ ServiceClass
 
 #.  int **carriage_class_id**;
 
+#.  string **rzhd_service_class_id**;
+
 #.  string **services**;
 
 #.  `Carriage <Carriage.rst>`_\[] **carriages**;

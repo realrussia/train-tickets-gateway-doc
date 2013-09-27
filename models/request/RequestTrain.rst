@@ -12,5 +12,3 @@ RequestTrain
 
 #.  `RequestTicket <RequestTicket.rst>`_\[] **request_tickets**;
 
-#.  `CacheTrains <CacheTrains.rst>`_ **cache_train**;
-

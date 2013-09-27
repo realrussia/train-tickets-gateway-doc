@@ -32,6 +32,8 @@ Exceptions in system:
 
 0016. Access rights violations
 
+0017. Tickets correlation violation
+
 1000. Internal application error
 
 1003. Please, apply to the help desk

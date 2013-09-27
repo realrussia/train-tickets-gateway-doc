@@ -149,3 +149,17 @@ Example of request:
 
 Result: `Reference <../models/response/Reference.rst>`_
 
+
+.. _tariffs:
+tariffs
+----
+Method: GET
+
+List of used tariffs
+
+Example of request:
+
+``/reference/stations?user=test_user``
+
+Result: `Reference <../models/response/Reference.rst>`_
+

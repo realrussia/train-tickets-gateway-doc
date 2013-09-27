@@ -8,5 +8,3 @@ RequestTicket
 
 #.  int **separate_place_for_baby** Used only if requested separate place for baby;
 
-#.  `RequestTrain <RequestTrain.rst>`_ **train**;
-
