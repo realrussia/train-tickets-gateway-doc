@@ -20,3 +20,5 @@ Carriage
 
 #.  `GenderDependentAvailability <GenderDependentAvailability.rst>`_ **gender_dependent_availability** For carriages with male/female service this property will contain gender dependent availability;
 
+#.  bool **is_gender_dependent** Is carriage a gender dependent. If this property is true then "genderDependentAvailability" should be parsed. To buying ticket into this carriage `BookTickets.Selection.cabin_gender_type <../request/Selection.rst>`_ should be specified;
+
