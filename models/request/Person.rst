@@ -18,3 +18,5 @@ Person
 
 #.  int **tariff** ID of tariff;
 
+#.  string **place_of_birth** Place of birth;
+
