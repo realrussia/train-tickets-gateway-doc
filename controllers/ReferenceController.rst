@@ -163,3 +163,17 @@ Example of request:
 
 Result: `Reference <../models/response/Reference.rst>`_
 
+
+.. _countries:
+countries
+----
+Method: GET
+
+List of used countries codes. This information should be the same as in format ISO 3166-1 alpha-2.
+
+Example of request:
+
+``/reference/countries?user=test_user``
+
+Result: `Reference <../models/response/Reference.rst>`_
+

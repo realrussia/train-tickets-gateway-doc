@@ -2,15 +2,16 @@
 <request>
     <st1>8631</st1>
     <st2>11783</st2>
-    <dt>22.03.2013</dt>
-    <train_number>020У</train_number>
+    <dt>13.06.2013</dt>
+    <train_number>054Ch</train_number>
     <carriage_class_id>1</carriage_class_id>
     <selection>
-        <carriage_number>1</carriage_number>
-        <places_range>1-30</places_range>
+        <carriage_number>14</carriage_number>
+        <places_range>1-54</places_range>
         <registration_type>2</registration_type>
         <tier>1</tier>
         <cabin_gender_type>1</cabin_gender_type>
+        <in_one_kupe>1</in_one_kupe>
     </selection>
     <tickets>
         <ticket>
@@ -26,7 +27,7 @@
                         <type>6</type>
                         <number>123456789</number>
                     </document>
-					<place_of_birth>Italy, Sicily</place_of_birth>
+                    <country_of_birth>IT</country_of_birth>
                 </person>
             </passengers>
         </ticket>
