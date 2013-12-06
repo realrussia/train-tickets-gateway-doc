@@ -8,7 +8,7 @@ BookTickets
 
 #.  string **dt** Departure date;
 
-#.  string **train_number** Train number has to be `transliterated </articles/trainNumbers.rst>`_;
+#.  string **train_number** Train number has to be `transliterated </articles/trainNumbers.rst>`_ .To avoid problems need to send train number specified in `ServiceClass </models/response/ServiceClass.rst>`_ if it is set;
 
 #.  int **carriage_class_id**;
 

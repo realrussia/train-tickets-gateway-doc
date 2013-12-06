@@ -27,3 +27,10 @@ Examples are present within the specifications of each method.
 If an error has occurred during the request process, this should return an [Error](/models/response/Error.rst). [List of possible errors](articles/errors.rst).
 
 Certain tickets can be cancelled by clients themselves, for information about cancelled tickets use [getReport](/controllers/InformationController.rst#getreport)
+
+## Release notes
+
+###06.12.2013
+
+ * RZHD had changed format of hierarchy between passengers and tickets in request for Grand carriages. [Example of request](/examples/bookTicketsGrand.xml)
+ * For [request](/models/request/BookTickets.rst) in [bookTickets](/controllers/TicketsController.rst#booktickets) need to specify train number that returned by [getTrain](/controllers/InformationController.rst#gettrain) in [Train.ServiceClass.trainThreadNumber](/models/response/ServiceClass.rst)
