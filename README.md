@@ -30,6 +30,10 @@ Certain tickets can be cancelled by clients themselves, for information about ca
 
 ## Release notes
 
+###09.12.2013
+
+ * Under new requirements from RZHD a format of passengers data had changed. For [Person](/models/request/Person.rst) field country_of_birth is changed to place_of_birth.
+
 ###06.12.2013
 
  * RZHD had changed format of hierarchy between passengers and tickets in request for Grand carriages. [Example of request](/examples/bookTicketsGrand.xml)

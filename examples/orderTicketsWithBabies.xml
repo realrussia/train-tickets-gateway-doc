@@ -28,6 +28,7 @@
                                         <number>123456789</number>
                                     </document>
                                     <tariff>1</tariff>
+                                    <place_of_birth>El Ejido</place_of_birth>
                                 </person>
                             </passengers>
                         </seat>
@@ -55,6 +56,7 @@
                                         <number>987654321</number>
                                     </document>
                                     <tariff>2</tariff>
+                                    <place_of_birth>El Ejido</place_of_birth>
                                 </person>
                             </passengers>
                         </seat>
@@ -81,6 +83,7 @@
                                         <number>987654321</number>
                                     </document>
                                     <tariff>3</tariff>
+                                    <place_of_birth>United Kingdom, Leicester</place_of_birth>
                                 </person>
                             </passengers>
                         </seat>

@@ -26,7 +26,7 @@
                         <type>6</type>
                         <number>123456789</number>
                     </document>
-                    <country_of_birth>IT</country_of_birth>
+                    <place_of_birth>El Ejido</place_of_birth>
                 </person>
             </passengers>
         </ticket>
@@ -44,7 +44,7 @@
                         <type>6</type>
                         <number>00112244888</number>
                     </document>
-                    <country_of_birth>IT</country_of_birth>
+                    <place_of_birth>El Ejido</place_of_birth>
                 </person>
             </passengers>
         </ticket>
@@ -61,7 +61,7 @@
                         <type>6</type>
                         <number>237469928</number>
                     </document>
-                    <country_of_birth>UK</country_of_birth>
+                    <place_of_birth>United Kingdom, Leicester</place_of_birth>
                 </person>
             </passengers>
         </ticket>
