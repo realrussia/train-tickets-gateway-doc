@@ -20,5 +20,5 @@ Person
 
 #.  string **country_of_birth** Deprecated! Alias for PlaceOfBirth. Will be removed soon;
 
-#.  string **place_of_birth** Place of birth that specified in document. If there is no such field than should be sent "-". Value should be less than 99 symbols. Allowed latin, cyrillic symbols, digits, commas and spaces;
+#.  string **place_of_birth** Place of birth that specified in document. If there is no such field than should be sent "-". Value should be less than 99 symbols. Allowed latin, cyrillic symbols, digits, commas, dashes and spaces;
 
