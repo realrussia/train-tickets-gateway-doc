@@ -2,6 +2,8 @@
 Exceptions in system:
 ====
 
+0001. Sales and other requests are blocked
+
 0002. Ticket has not been booked and can not be confirmed
 
 0003. Wrong input parameter
@@ -285,6 +287,8 @@ Exceptions in system:
 5204. Return can be effected only for one separate ticket or for the entire order
 
 5205. Not all forms refer to the order, some of them have been returned or too many forms are specified
+
+5206. For this transaction cancellation available only for separate tickets
 
 5320. There must be at least one adult passenger in the order
 
