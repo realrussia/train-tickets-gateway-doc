@@ -6,5 +6,3 @@ Seat
 
 #.  `Person <Person.rst>`_\[] **passengers**;
 
-#.  `\PriceCollection <\PriceCollection.rst>`_ **price**;
-

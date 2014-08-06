@@ -2,7 +2,7 @@
 Delivery
 ====
 
-#.  `integer <integer.rst>`_ **id**;
+#.  int **id**;
 
 #.  string **description**;
 
