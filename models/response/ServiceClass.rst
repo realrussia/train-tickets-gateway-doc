@@ -20,3 +20,5 @@ ServiceClass
 
 #.  float **price_for_child** This tag is optional. It will be shown only for `InformationController.getTrain </controllers/InformationController.rst#gettrain>`_. NOTE: this is approximate price, accurate price will be shown only in `TicketsController.bookTickets </controllers/TicketsController.rst#booktickets>`_;
 
+#.  int **places_per_cabin** Number of places in cabin. If there is no cabins in such type of carriage then this tag will contain 0;
+
