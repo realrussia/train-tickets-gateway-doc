@@ -278,6 +278,8 @@ Exceptions in system:
 
 5098. You cannot confirm the return since not all tickets have been issued in the terminal
 
+5099. Invalid document type
+
 5200. The terminal of return not found, switched off or does not correspond to the original order
 
 5201. Document number for check is not specified or does not correspond to the order
@@ -319,5 +321,7 @@ Exceptions in system:
 5371. No vacant seats in the selected car
 
 5380. Communication error
+
+5413. On this route booking is available only till {0} (for {1} days from today)
 
 
