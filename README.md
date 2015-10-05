@@ -30,6 +30,10 @@ Certain tickets can be cancelled by clients themselves, for information about ca
 
 ## Release notes
 
+###29.09.2015
+
+ * Under new requirements from RZHD a format of passengers data had changed. For [Person](/models/request/Person.rst) field place_of_birth is removed.
+ 
 ###26.05.2015
 
  * For "Seat only" carriage class the option [Selection](/models/request/Selection.rst):in_one_kupe forced to 0.

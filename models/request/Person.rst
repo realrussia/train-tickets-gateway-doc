@@ -2,11 +2,11 @@
 Person
 ====
 
-#.  string **name**;
+#.  string **name** Length <= 20 characters;
 
-#.  string **middle_name**;
+#.  string **middle_name** Length <= 20 characters;
 
-#.  string **surname**;
+#.  string **surname** length(name) + length(middle_name) + length(surname) < 70 characters;
 
 #.  string **birth_date** This field is required;
 
@@ -20,5 +20,5 @@ Person
 
 #.  string **country_of_birth** Deprecated! Alias for PlaceOfBirth. Will be removed soon;
 
-#.  string **place_of_birth** Place of birth that specified in document. If there is no such field than should be sent "-". Value should be less than 99 symbols. Allowed latin, cyrillic symbols, digits, commas, dashes and spaces;
+#.  string **place_of_birth** Deprecated! Will be removed soon;
 
