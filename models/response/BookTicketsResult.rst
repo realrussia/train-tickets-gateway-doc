@@ -20,3 +20,5 @@ BookTicketsResult
 
 #.  `BookingCacheTicket <BookingCacheTicket.rst>`_\[] **tickets**;
 
+#.  bool **is_print_point_at_departure_station_available** Is print point for Etickets available on the station of departure;
+
