@@ -8,3 +8,5 @@ Person
 
 #.  string **name**;
 
+#.  string **birth_date** Format 'd M Y'. Example ``24 Dec 1971``;
+

@@ -22,3 +22,9 @@ Carriage
 
 #.  bool **is_gender_dependent** Is carriage a gender dependent. If this property is true then "genderDependentAvailability" should be parsed. To buying ticket into this carriage `BookTickets.Selection.cabin_gender_type <../request/Selection.rst>`_ should be specified;
 
+#.  bool **is_two_storey** Does carriage have 2 storey. On some routes there are double deck carriages;
+
+#.  string **carriage_map_template**;
+
+#.  `PlacesRange <PlacesRange.rst>`_ **places_range**;
+

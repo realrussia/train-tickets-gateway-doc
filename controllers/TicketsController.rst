@@ -117,3 +117,21 @@ Example of request:
 
 Result: `OrderTicketsResult <../models/response/OrderTicketsResult.rst>`_
 
+
+.. _bookPackage:
+bookPackage
+----
+Method: POST
+
+The method for booking of several request in one time
+
+Parameters:
+
+* params - Contain XML with tickets details. See `Model <../models/request/BookPackage.rst>`_ specification
+
+Example of request:
+
+``/tickets/bookPackage``
+
+Result: `BookPackageResult <../models/response/BookPackageResult.rst>`_
+

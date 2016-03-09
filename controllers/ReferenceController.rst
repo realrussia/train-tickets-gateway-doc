@@ -177,3 +177,18 @@ Example of request:
 
 Result: `Reference <../models/response/Reference.rst>`_
 
+
+.. _additionalPlacesRequirements:
+additionalPlacesRequirements
+----
+Method: GET
+
+Additional places requirements. Used in bookTickets method.
+If value of description == 1 then this options is allowed for third class only
+
+Example of request:
+
+``/reference/additionalPlacesRequirements?user=test_user``
+
+Result: `Reference <../models/response/Reference.rst>`_
+

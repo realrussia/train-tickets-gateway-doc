@@ -117,3 +117,25 @@ Example of request:
 
 Result: `Report <../models/reports/tickets/Report.rst>`_
 
+
+.. _getRoute:
+getRoute
+----
+Method: GET
+
+Provides information about stations the train goes through
+
+Parameters:
+
+* st1 - Id of station of departure
+* st2 - Id of station of arrival
+* dt - date in format `dd.mm.YYYY`
+* train - train number. Train number has to be `transliterated </articles/trainNumbers.rst>`_
+
+
+Example of request:
+
+``/information/getRoute?&user=username&dt=28.03.2013&st1=8631&st2=11783&train=020U``
+
+Result: `Route <../models/response/Route.rst>`_
+

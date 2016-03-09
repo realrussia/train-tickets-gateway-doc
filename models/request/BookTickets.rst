@@ -16,3 +16,7 @@ BookTickets
 
 #.  `Ticket <Ticket.rst>`_\[] **tickets**;
 
+#.  `Delivery <Delivery.rst>`_ **delivery**;
+
+#.  int **id** Not required;
+

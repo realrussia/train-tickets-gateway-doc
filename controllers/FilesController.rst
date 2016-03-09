@@ -19,10 +19,11 @@ Provides PDF file of eticket. NOTE: in case of error method will return `Error <
 Parameters:
 
 * id - Reference number of order
+* search_by - Not required. Enum of ['order', 'ticket']. Set the entity that will be used for E-Ticket search
 
 Example of request:
 
-``/information/getEticket?user=username&id=10174``
+``/files/getEticket?user=username&id=10174``
 
 Result: PDF-file
 
