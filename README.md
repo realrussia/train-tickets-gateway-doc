@@ -30,6 +30,11 @@ Certain tickets can be cancelled by clients themselves, for information about ca
 
 ## Release notes
 
+###15.03.2016
+
+ * Update of protocol
+ * To unauthorized requests system used to redirect to another url, but now it responds with 403 error with message "Authentication Failed.".   
+
 ###29.09.2015
 
  * Under new requirements from RZHD a format of passengers data had changed. For [Person](/models/request/Person.rst) field place_of_birth is removed.
