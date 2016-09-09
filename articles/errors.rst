@@ -168,7 +168,7 @@ Exceptions in system:
 
 5027. Two travel documents cannot be issued using the same privilege
 
-5028. For children&#039;s tickets you can use only birth certificate, parent&#039;s foreign passport, or alien&#039;s passport
+5028. For children's tickets you can use only birth certificate, parent's foreign passport, or alien's passport
 
 5029. For schoolchildren you can use only birth certificate, passport, or foreign passport
 
@@ -192,7 +192,7 @@ Exceptions in system:
 
 5039. Incorrect requirement for male/female compartment - select the opposite
 
-5040. &quot;Requirement &amp;quot;in one compartment&amp;quot; is incorrect for a single passenger&quot;
+5040. "Requirement &quot;in one compartment&quot; is incorrect for a single passenger"
 
 5041. The set required range does not include all seats in the order 
 
@@ -208,7 +208,7 @@ Exceptions in system:
 
 5047. No more than {0} passengers to be returned
 
-5048. Requirement &amp;quot;{0}&amp;quot; is correct only in case of third-class sleeper. In other cases, please, do not specify this.
+5048. Requirement &quot;{0}&quot; is correct only in case of third-class sleeper. In other cases, please, do not specify this.
 
 5049. The order is already in the requested state - request for remote registration is in conflict with its current status
 
@@ -342,11 +342,11 @@ Exceptions in system:
 
 5307. Incorrect loyalty program selected
 
-5308. The passenger&#039;s full name doesn?t correspond to the card holder information!
+5308. The passenger's full name doesn?t correspond to the card holder information!
 
 5320. There must be at least one adult passenger in the order
 
-5321. Children&#039;s tariff is not valid in this car category
+5321. Children's tariff is not valid in this car category
 
 5322. Incorrect number of passengers in one compartment
 
@@ -396,7 +396,7 @@ Exceptions in system:
 
 5388. No transit through Lithuania permitted at pay office
 
-5389. Key T requirements don?t correspond to the  passenger&#039;s sex character
+5389. Key T requirements don?t correspond to the  passenger's sex character
 
 5390. Personal document type doesn?t correspond to the country of citizenship
 

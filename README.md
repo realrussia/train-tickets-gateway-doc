@@ -32,12 +32,12 @@ Certain tickets can be cancelled by clients themselves, for information about ca
 
 ###09.09.2016
 
- * An adding of [a migration guide](/articles/v2-migration-guide.rst)
- * New property [Ticket](/models/response/Ticket.rst):meal added. Also a [method of changing](/controllers/TicketsController.rst#changeMeal) added
+ * An adding of [migration notes for v2](/articles/v2-migration-notes.rst)
+ * New property [Ticket](/models/response/Ticket.rst):meal added. Also a [method of changing](/controllers/TicketsController.rst#changemeal) added
  * Booking of the whole coupe. [Selection](/models/request/Selection.rst):book_the_whole_coupe
  * [Person](/models/request/Person.rst):country_of_document
- * [documentTypes](/controllers/ReferenceController.rst#documentTypes) a format's description added
- * [getCancellationBlank](/controllers/FilesController.rst#getCancellationBlank). New method added 
+ * [documentTypes](/controllers/ReferenceController.rst#documenttypes) a format's description added
+ * [getCancellationBlank](/controllers/FilesController.rst#getcancellationblank). New method added 
  * Update of [errors list](/articles/errors.rst)
 
 ###15.03.2016 - v2

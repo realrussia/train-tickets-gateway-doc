@@ -2,7 +2,7 @@
 Train
 ====
 
-    Extends from `TrainShort &lt;./TrainShort.rst&gt;`_ in some responses
+    Extends from `TrainShort <./TrainShort.rst>`_ in some responses
 
 #.  string **station1_name** Translated station name;
 
