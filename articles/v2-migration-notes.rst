@@ -2,6 +2,8 @@
 Migration notes for v2
 ====
 
+Look breakingchanges_.
+
 .. _breakingchanges:
 Breaking changes
 ====
@@ -30,15 +32,15 @@ FilesController
 
 InformationController
  * New method *getRoute*
- * New method *getAvailableMeals*. Allows to fetch list of available meals that can be used for `changeMeal </Controllers/TicketsController.rst#changemeal>`_
+ * New method *getAvailableMeals*. Allows to fetch list of available meals that can be used for `changeMeal </controllers/TicketsController.rst#changemeal>`_
 
 ReferenceController
- * `documentTypes </Controllers/ReferenceController.rst#documenttypes>`_ now has a format's description
- * New methods added `additionPlacesRequirements </Controllers/ReferenceController.rst#additionplacesrequirements>`_
+ * `documentTypes </controllers/ReferenceController.rst#documenttypes>`_ now has a format's description
+ * New methods added `additionPlacesRequirements </controllers/ReferenceController.rst#additionplacesrequirements>`_
 
 TicketsController
- * New method `bookPackage </Controllers/TicketsController.rst#bookpackage>`_ allows to book few tickets at once.
- * New method `changeMeal </Controllers/TicketsController.rst#changemeal>`_ allows to change meal for `Ticket </Models/response/Ticket.rst>`_ : meal (if it's provided)
+ * New method `bookPackage </controllers/TicketsController.rst#bookpackage>`_ allows to book few tickets at once.
+ * New method `changeMeal </controllers/TicketsController.rst#changemeal>`_ allows to change meal for `Ticket </models/response/Ticket.rst>`_ : meal (if it's provided)
 
 .. _amendsmodels:
 Models
