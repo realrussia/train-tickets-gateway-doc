@@ -2,9 +2,15 @@
 Migration notes for v2
 ====
 
-Look breakingchanges_.
+* `Breaking changes <#breaking-changes>`_
+* `Deprecations <#deprecations>`_
+* `Amends <#amends>`_
+ * `Controllers <#controllers>`_
+ * `Models <#models>`_
 
-.. _breakingchanges:
+------
+
+.. _breaking-changes:
 Breaking changes
 ====
 
@@ -22,7 +28,7 @@ request/Person
 Amends
 ====
 
-.. _amendscontrollers:
+.. _controllers:
 Controllers
 ----
 
@@ -42,7 +48,7 @@ TicketsController
  * New method `bookPackage </controllers/TicketsController.rst#bookpackage>`_ allows to book few tickets at once.
  * New method `changeMeal </controllers/TicketsController.rst#changemeal>`_ allows to change meal for `Ticket </models/response/Ticket.rst>`_ : meal (if it's provided)
 
-.. _amendsmodels:
+.. _models:
 Models
 ----
 
