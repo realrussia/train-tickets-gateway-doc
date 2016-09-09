@@ -14,8 +14,10 @@ Migration notes for v2
 Breaking changes
 ====
 
-response/Train
-  * Times of departure and arrival are changed the format to ISO 8601 ('YYYY-MM-DDThh:mm:ss±hh:mm')
+#. response/Train
+    * Times of departure and arrival are changed the format to ISO 8601 ('YYYY-MM-DDThh:mm:ss±hh:mm')
+
+#. To unauthorized requests system used to redirect to another url, but now it responds with 403 error with message "Authentication Failed.".
 
 .. _deprecations:
 Deprecations
