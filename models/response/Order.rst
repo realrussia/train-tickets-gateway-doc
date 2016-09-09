@@ -6,6 +6,8 @@ Order
 
 #.  int **booking_transaction_id**;
 
+#.  int **cancellation_transaction_id**;
+
 #.  `TrainShort <TrainShort.rst>`_ **train**;
 
 #.  float **price**;

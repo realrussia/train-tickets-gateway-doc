@@ -38,3 +38,12 @@ Probably this is price for low seats;
 
 #.  int **is_two_storey** 1 - true. 0 - false;
 
+#.  float **cost** Maximum RZHD cost of tickets in the service class;
+
+#.  float **min_cost** Minimal RZHD cost of tickets in the service class;
+
+#.  string **international_service_class** International service class. Can be specified for some international trains.
+It should be sent with booking request in `ServiceClass </models/response/ServiceClass.rst>`_;
+
+#.  bool **is_the_whole_coupe_booking_available** Availability to book a whole coupe. At the beginning of September 16 the feature available only on Moscow - Riga route.;
+

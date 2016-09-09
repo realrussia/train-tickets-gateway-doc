@@ -139,3 +139,22 @@ Example of request:
 
 Result: `Route <../models/response/Route.rst>`_
 
+
+.. _getAvailableMeals:
+getAvailableMeals
+----
+Method: GET
+
+RZHD allows to select a meal for journey for some trains and routes.
+Use this method to fetch available meals for specified order
+
+Parameters:
+
+* id - ID booking transaction
+
+Example of request:
+
+``/tickets/getAvailableMeals?user=test_user&id=92822281``
+
+Result: `SimpleOperationResult <../models/response/AvailableMeals.rst>`_
+

@@ -18,7 +18,7 @@ Provides PDF file of eticket. NOTE: in case of error method will return `Error <
 
 Parameters:
 
-* id - Reference number of order
+* id - Reference number of order, or ticket
 * search_by - Not required. Enum of ['order', 'ticket']. Set the entity that will be used for E-Ticket search
 
 Example of request:
@@ -44,4 +44,23 @@ Example of request:
 ``/files/refreshFiles?user=test_user&id=10174``
 
 Result: `SimpleOperationResult <../models/response/SimpleOperationResult.rst>`_
+
+
+.. _getCancellationBlank:
+getCancellationBlank
+----
+Method: GET
+
+Provides PDF file of cancellation blank. NOTE: in case of error method will return `Error <../models/response/Error.rst>`_
+
+Parameters:
+
+* id - Reference number of order or ticket
+* search_by - Not required. Enum of ['order', 'ticket']. Set the entity that will be used for Cancellation Blank search
+
+Example of request:
+
+``/files/getCancellationBlank?user=username&id=10174``
+
+Result: PDF-file
 

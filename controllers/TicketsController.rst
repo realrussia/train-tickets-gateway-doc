@@ -135,3 +135,22 @@ Example of request:
 
 Result: `BookPackageResult <../models/response/BookPackageResult.rst>`_
 
+
+.. _changeMeal:
+changeMeal
+----
+Method: GET
+
+Use this method to change the meal of passed ticket.
+
+Parameters:
+
+* ticket - ID of ticket
+* mealCode - code of meal received from `AvailableMeals <../models/response/AvailableMeals.rst>`_
+
+Example of request:
+
+``/tickets/changeMeal?user=test_user&id=280&mealCode=В``
+
+Result: `SimpleOperationResult <../models/response/SimpleOperationResult.rst>`_
+

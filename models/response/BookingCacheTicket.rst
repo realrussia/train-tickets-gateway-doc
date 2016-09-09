@@ -2,6 +2,8 @@
 BookingCacheTicket
 ====
 
+    Temporary booking ticket
+
 #.  string **place_number**;
 
 #.  int **places_count**;

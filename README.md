@@ -30,9 +30,19 @@ Certain tickets can be cancelled by clients themselves, for information about ca
 
 ## Release notes
 
-###15.03.2016
+###09.09.2016
 
- * Update of protocol
+ * An adding of [a migration guide](/articles/v2-migration-guide.rst)
+ * New property [Ticket](/models/response/Ticket.rst):meal added. Also a [method of changing](/controllers/TicketsController.rst#changeMeal) added
+ * Booking of the whole coupe. [Selection](/models/request/Selection.rst):book_the_whole_coupe
+ * [Person](/models/request/Person.rst):country_of_document
+ * [documentTypes](/controllers/ReferenceController.rst#documentTypes) a format's description added
+ * [getCancellationBlank](/controllers/FilesController.rst#getCancellationBlank). New method added 
+ * Update of [errors list](/articles/errors.rst)
+
+###15.03.2016 - v2
+
+ * Update of protocol to v2
  * To unauthorized requests system used to redirect to another url, but now it responds with 403 error with message "Authentication Failed.".   
 
 ###29.09.2015

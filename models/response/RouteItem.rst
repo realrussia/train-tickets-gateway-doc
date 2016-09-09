@@ -2,6 +2,8 @@
 RouteItem
 ====
 
+    Information about stopover
+
 #.  `Station <Station.rst>`_ **station**;
 
 #.  string **arrival_time**;

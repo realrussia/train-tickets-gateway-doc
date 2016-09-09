@@ -10,7 +10,7 @@ Exceptions in system:
 
 0004. The order not found
 
-0005. The attempt to cancel tickets of different orders
+0005. The attempt to process tickets of different orders
 
 0006. Tickets already cancelled
 
@@ -36,13 +36,33 @@ Exceptions in system:
 
 0017. Tickets correlation violation
 
+0018. Change of meal failed
+
+0019. Cancellation is unavailable
+
 1000. Internal application error
 
+1001. An error occurred during  transaction
+
+1002. Application database is not available
+
 1003. Please, apply to the help desk
+
+1004. Authentication error
+
+1005. http connection error
 
 1006. Please, repeat your request
 
 1007. Authorisation error
+
+1008. Transaction time out
+
+1009. Incorrect parameter format {0}
+
+1010. Incorrect parameter value {0}
+
+1011. Input parameter  {0} not found
 
 1012. Repeated request
 
@@ -59,6 +79,8 @@ Exceptions in system:
 1018. Parameter value must be in the range from {0} to {1}
 
 1019. Request from banned IP
+
+1020. Provider error
 
 1021. Not sufficient funds
 
@@ -186,7 +208,7 @@ Exceptions in system:
 
 5047. No more than {0} passengers to be returned
 
-5048. &quot;Requirement &amp;quot;{0}&amp;quot; is correct only in case of third-class sleeper. In other cases, please, do not specify this.&quot;
+5048. Requirement &amp;quot;{0}&amp;quot; is correct only in case of third-class sleeper. In other cases, please, do not specify this.
 
 5049. The order is already in the requested state - request for remote registration is in conflict with its current status
 
@@ -230,7 +252,7 @@ Exceptions in system:
 
 5069. Error when processing the request. Please, repeat your request
 
-5070. Operation failed due to incorrect input data: {0}
+5070. Operation failed: {0}
 
 5071. Transaction with such ID not found
 
@@ -250,6 +272,8 @@ Exceptions in system:
 
 5079. Erroneous confirmation. The order has not been printed out or not fully printed out (there are tickets due to be issued)
 
+5080. Incorrect confirmation: the order (part) was printed out in the terminal with another fin.address
+
 5081. The operation has been canceled during execution with the other external request
 
 5082. In case of departure from Moscow you cannot return the ticket in more than {0} minutes after the train departure
@@ -260,13 +284,19 @@ Exceptions in system:
 
 5085. Cashless electronic tickets for children under five without seats are NOT ISSUED from departure stations situated on the territory of Ukraine. For such tickets, please, apply to the railway booking office
 
+5086. The limit of  З-h orders is exceeded. Try again later.
+
 5087. No selling railway tickets for the specified direction
+
+5088. The odd number of passengers of various ages should be processed in different orders
 
 5089. No issuing orders for children (without seats) for the specified direction
 
 5090. No electronic registration for the specified direction
 
 5091. You cannot return the ticket in this order
+
+5093. Passengers data should be pairwise identical for this  carriage
 
 5094. Only one child without seat per compartment in the selected car
 
@@ -284,6 +314,8 @@ Exceptions in system:
 
 5201. Document number for check is not specified or does not correspond to the order
 
+5202. The order can be cancelled not later than 26 hours before  train departure
+
 5203. Return cannot be effected
 
 5204. Return can be effected only for one separate ticket or for the entire order
@@ -291,6 +323,26 @@ Exceptions in system:
 5205. Not all forms refer to the order, some of them have been returned or too many forms are specified
 
 5206. For this transaction cancellation available only for separate tickets
+
+5207. Return to without return from is not available
+
+5300. No card discount available for this train
+
+5301. Loyalty cards can be used to issue tickets to adult passengers only!
+
+5302. The card can be used for ticket purchase by card holder only!
+
+5303. The card is not owned by this passenger!
+
+5304. Incorrect card number format
+
+5305. Incorrect card type
+
+5306. Incorrect card number
+
+5307. Incorrect loyalty program selected
+
+5308. The passenger&#039;s full name doesn?t correspond to the card holder information!
 
 5320. There must be at least one adult passenger in the order
 
@@ -306,6 +358,8 @@ Exceptions in system:
 
 5342. Incorrect date of birth
 
+5343. Invalid query. No confirmation or booking option available after order cancellation
+
 5350. Erroneous request. You cannot confirm or book an order after it has been canceled
 
 5351. Erroneous request. You cannot book an order after it has been confirmed
@@ -320,8 +374,76 @@ Exceptions in system:
 
 5371. No vacant seats in the selected car
 
+5372. Incorrect value of seats range for this floor
+
+5373. For this train carriage type the options of ER carriage/no ER carriage available. The carriage number must be specified in this case
+
+5374. All trains are deleted from the reference data
+
+5375. Not more than 2 passengers in one order for this type of carriage
+
 5380. Communication error
 
-5413. On this route booking is available only till {0} (for {1} days from today)
+5382. No seats in one compartment
+
+5383. No bottom seats or seats next to the window  available
+
+5385. Incorrect identity documents input
+
+5386. Incorrect full name input
+
+5387. Wrong type of identification document
+
+5388. No transit through Lithuania permitted at pay office
+
+5389. Key T requirements don?t correspond to the  passenger&#039;s sex character
+
+5390. Personal document type doesn?t correspond to the country of citizenship
+
+5391. No upper seats available
+
+5392. Prohibited personal document in terms of  transit through Lithuania
+
+5393. No carriage with the stated number available
+
+5401. The train has left the station
+
+5402. Different carriages
+
+5403. Only side seats available
+
+5404. Specify the M/F requirement
+
+5406. Deferred payment option is not available for this order
+
+5407. Invalid bonus card number
+
+5408. Incorrect identity document issuance country
+
+5409. Personal document type doesn?t correspond to the  country of issuance
+
+5411. Unacceptable name length
+
+5412. Incorrect date of birth
+
+5413. On this route booking is available only till {0} (for 45 days from today)
+
+5414. Less than  {0} h left before train departure
+
+5416. The entry of carriage type is obligatory
+
+5417. No booking option available for this tariff
+
+5418. Booking of bus segment prohibited without basic segment
+
+5419. Booking cancelled due to  failure to book the linked segment.
+
+5421. Unfortunately no online train ticket purchase option available for this direction. Please buy the ticket at any railway ticket office
+
+5422. Incorrect number of adult passengers in the order.
+
+5423. Incorrect parameters for TO-FROM
+
+5424. Authorization error  in bonus system
 
 

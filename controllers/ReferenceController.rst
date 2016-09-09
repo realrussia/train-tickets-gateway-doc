@@ -42,7 +42,7 @@ documentTypes
 ----
 Method: GET
 
-Document types of passengers
+Document types of passengers. In description tag you can see requirements for format
 
 Example of request:
 
@@ -56,7 +56,7 @@ services
 ----
 Method: GET
 
-Services of trains and carriages. In description tag you can see is it service fot trains of for carriages
+Services of trains and carriages. In description tag you can see is it service for trains of for carriages
 
 Example of request:
 

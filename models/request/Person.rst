@@ -12,11 +12,13 @@ Person
 
 #.  int **sex** 0 - female, 1 - male. This field is required;
 
-#.  string **citizenship** Citizenship in format ISO 3166-1 alpha-2. Look at the `ReferenceController.countries() </controllers/ReferenceController.rst#countries>`_;
+#.  string **country_of_document** Country of document in format ISO 3166-1 alpha-2. Look at the `ReferenceController.countries() </controllers/ReferenceController.rst#countries>`_;
 
 #.  `Document <Document.rst>`_ **document**;
 
 #.  int **tariff** ID of tariff;
+
+#.  string **citizenship** Will be removed soon. Use field "country_of_document" instead;
 
 #.  string **country_of_birth** Deprecated! Alias for PlaceOfBirth. Will be removed soon;
 

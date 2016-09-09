@@ -18,3 +18,5 @@ Ticket
 
 #.  `Person <Person.rst>`_\[] **passengers** Passengers information;
 
+#.  `Meal <Meal.rst>`_ **meal**;
+

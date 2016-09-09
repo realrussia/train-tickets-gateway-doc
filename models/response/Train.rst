@@ -2,6 +2,16 @@
 Train
 ====
 
+    Extends from `TrainShort &lt;./TrainShort.rst&gt;`_ in some responses
+
+#.  string **station1_name** Translated station name;
+
+#.  string **station2_name** Translated station name;
+
+#.  string **station1_original_name** Cyrillic station name;
+
+#.  string **station2_original_name** Cyrillic station name;
+
 #.  int **running_time**;
 
 #.  int **distance**;
@@ -19,6 +29,8 @@ Train
 #.  string\[] **countries_of_visit**;
 
 #.  bool **is_er_expiration_day** A train is en route or departs during the day.;
+
+#.  string **allowed_document_types**;
 
 #.  int **station1_id**;
 
