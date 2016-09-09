@@ -1,5 +1,5 @@
 ====
-Migration notes for v2
+Migration notes for v2 
 ====
 
 * `Breaking changes <#breaking-changes>`_
@@ -15,16 +15,16 @@ Breaking changes
 ====
 
 #. response/Train
-    * Times of departure and arrival are changed the format to ISO 8601 ('YYYY-MM-DDThh:mm:ss±hh:mm')
+    * Times of departure and arrival have changed the format to ISO 8601 ('YYYY-MM-DDThh:mm:ss±hh:mm')
 
-#. To unauthorized requests system used to redirect to another url, but now it responds with 403 error with message "Authentication Failed.".
+#. To unauthorized requests the system used to redirect users to another url, however now it responds with 403 error with message "Authentication Failed.".
 
 .. _deprecations:
 Deprecations
 ====
 
 request/Person
-  * *citizenship* is softly renamed to *country_of_document* because it more semantically suitable to RZHD requirements
+  * *citizenship* is slightly renamed to *country_of_document* because it is more semantically suitable to RZHD requirements
 
 .. _amends:
 Amends
@@ -35,16 +35,16 @@ Controllers
 ----
 
 FilesController
- * Into *getEticket* added a possibility to get file by ticket's ID. New parameter *search_by* helps
- * New method *getCancellationForm* added to make possible to receive the file
+ * Into *getEticket* has been added a possibility to get file by ticket's ID. New parameter *search_by* helps with it
+ * New method *getCancellationForm* has been added to allow users receiving the file
 
 InformationController
  * New method *getRoute*
- * New method *getAvailableMeals*. Allows to fetch list of available meals that can be used for `changeMeal </controllers/TicketsController.rst#changemeal>`_
+ * New method *getAvailableMeals*. It allows to fetch list of available meals that can be used for `changeMeal </controllers/TicketsController.rst#changemeal>`_
 
 ReferenceController
  * `documentTypes </controllers/ReferenceController.rst#documenttypes>`_ now has a format's description
- * New methods added `additionPlacesRequirements </controllers/ReferenceController.rst#additionplacesrequirements>`_
+ * New methods has been added `additionPlacesRequirements </controllers/ReferenceController.rst#additionplacesrequirements>`_
 
 TicketsController
  * New method `bookPackage </controllers/TicketsController.rst#bookpackage>`_ allows to book few tickets at once.
@@ -55,13 +55,13 @@ Models
 ----
 
 request/Selection
- * Few new properties added
+ * Few new properties have been added
 
 response/Carriage
- * Added availability of few new types of places
+ * Availability of few new types of places has been added
 
 response/ServiceClass
- * Added information about carriage owner, service tags and few other carriage options
+ * Information about carriage owner, service tags and few other carriage options have been added
 
 response/Train
- * Added information about distance, stations translation, countries of visit and allowed document types
+ * Information about distance, stations translation, countries of visit and allowed document types have been added
