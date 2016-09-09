@@ -2,7 +2,7 @@
 
 Before using this gateway you need to contact us (<support@realrussia.co.uk>) and get your _username_.
 
-This Gateway has 3 controllers:
+This Gateway has 4 controllers:
 
  * [Information][]
  * [Tickets][]
