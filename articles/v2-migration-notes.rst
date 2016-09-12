@@ -17,7 +17,7 @@ Breaking changes
 #. response/Train
     * Times of departure and arrival have changed the format to ISO 8601 ('YYYY-MM-DDThh:mm:ss±hh:mm')
 
-#. To unauthorized requests the system used to redirect users to another url, however now it responds with 403 error with message "Authentication Failed.".
+#. To unauthorized requests the system used to redirect requests to another url, however now it responds with 403 error with message "Authentication Failed.".
 
 .. _deprecations:
 Deprecations
