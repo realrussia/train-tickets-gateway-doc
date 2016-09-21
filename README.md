@@ -30,6 +30,10 @@ Certain tickets can be cancelled by clients themselves, for information about ca
 
 ## Release notes
 
+###21.09.2016
+
+ * [Train](./models/response/Train.rst):station1_name and [Train](./models/response/Train.rst):station1_original_name united and moved to object [Train](./models/response/Train.rst):station1. The same operation is done for *station2_* properties
+
 ###09.09.2016
 
  * An adding of [migration notes for v2](./articles/v2-migration-notes.rst)

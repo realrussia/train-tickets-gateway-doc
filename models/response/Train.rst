@@ -4,13 +4,9 @@ Train
 
     Extends from `TrainShort <./TrainShort.rst>`_ in some responses
 
-#.  string **station1_name** Translated station name;
+#.  `Station <Station.rst>`_ **station1** Translated station name;
 
-#.  string **station2_name** Translated station name;
-
-#.  string **station1_original_name** Cyrillic station name;
-
-#.  string **station2_original_name** Cyrillic station name;
+#.  `Station <Station.rst>`_ **station2** Translated station name;
 
 #.  int **running_time**;
 
