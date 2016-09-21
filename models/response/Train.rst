@@ -4,9 +4,9 @@ Train
 
     Extends from `TrainShort <./TrainShort.rst>`_ in some responses
 
-#.  `Station <Station.rst>`_ **station1** Translated station name;
+#.  `Station <Station.rst>`_ **station1** Details station's information;
 
-#.  `Station <Station.rst>`_ **station2** Translated station name;
+#.  `Station <Station.rst>`_ **station2** Detail station's information;
 
 #.  int **running_time**;
 
