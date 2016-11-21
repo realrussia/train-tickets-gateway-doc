@@ -154,3 +154,21 @@ Example of request:
 
 Result: `SimpleOperationResult <../models/response/SimpleOperationResult.rst>`_
 
+
+.. _checkTransactionStatus:
+checkTransactionStatus
+----
+Method: GET
+
+Use this method to check status of your transaction by id of temporary order.
+
+Parameters:
+
+* sid - ID of temporary order
+
+Example of request:
+
+``/tickets/checkTransactionStatus?user=test_user&sid=92``
+
+Result: Return 0 if transaction is successful, 1 if transaction is in progress, 2 if there is an error transaction
+

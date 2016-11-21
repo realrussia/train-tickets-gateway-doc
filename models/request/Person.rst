@@ -16,7 +16,7 @@ Person
 
 #.  `Document <Document.rst>`_ **document**;
 
-#.  int **tariff** ID of tariff;
+#.  int **tariff** `Tariff ID <../../../controllers/ReferenceController.rst#tariffs>`_;
 
 #.  string **citizenship** Will be removed soon. Use field "country_of_document" instead;
 

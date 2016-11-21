@@ -29,7 +29,7 @@ ServiceClass
 #.  float **min_price** NOTE: this is approximate price, accurate price will be shown only in `TicketsController.bookTickets </controllers/TicketsController.rst#booktickets>`_
 Probably this is price for low seats;
 
-#.  float **min_price_for_child** NOTE: this is approximate price, accurate price will be shown only in `TicketsController.bookTickets </controllers/TicketsController.rst#booktickets>`_
+#.  float **min_price_for_child** This tag is optional. NOTE: this is approximate price, accurate price will be shown only in `TicketsController.bookTickets </controllers/TicketsController.rst#booktickets>`_
 Probably this is price for low seats;
 
 #.  float **price_for_child** This tag is optional. It will be shown only for `InformationController.getTrain </controllers/InformationController.rst#gettrain>`_. NOTE: this is approximate price, accurate price will be shown only in `TicketsController.bookTickets </controllers/TicketsController.rst#booktickets>`_;
@@ -41,6 +41,10 @@ Probably this is price for low seats;
 #.  float **cost** Maximum RZHD cost of tickets in the service class;
 
 #.  float **min_cost** Minimal RZHD cost of tickets in the service class;
+
+#.  float **child_cost** This tag is optional. Maximum RZHD cost of children's ticket;
+
+#.  float **min_child_cost** This tag is optional. Minimal RZHD cost of children's tariff;
 
 #.  string **international_service_class** International service class. Can be specified for some international trains.
 It should be sent with booking request in `ServiceClass </models/response/ServiceClass.rst>`_;

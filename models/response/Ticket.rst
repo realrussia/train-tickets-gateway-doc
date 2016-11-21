@@ -8,7 +8,7 @@ Ticket
 
 #.  int **status** Ticket status Id;
 
-#.  string **place_number** Number of places. Can contain few places;
+#.  string **place_number** Number of places. Can contain few places. Can be empty for child without place;
 
 #.  `Price <Price.rst>`_ **price** Price amounts;
 

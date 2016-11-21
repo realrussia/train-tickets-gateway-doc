@@ -10,5 +10,7 @@ BookPackageResult
 
 #.  `\Art\Classes\ValuesCollection <\Art\Classes\ValuesCollection.rst>`_ **cost_collection**;
 
+#.  `\Art\Classes\ValuesCollection <\Art\Classes\ValuesCollection.rst>`_ **paid_collection**;
+
 #.  `BookTicketsResult <BookTicketsResult.rst>`_\[] **results** Collection of results;
 

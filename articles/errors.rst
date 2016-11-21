@@ -40,6 +40,10 @@ Exceptions in system:
 
 0019. Cancellation is unavailable
 
+0020. Communication error
+
+0021. Ticket has not been booked and transaction doesn't exist
+
 1000. Internal application error
 
 1001. An error occurred during  transaction

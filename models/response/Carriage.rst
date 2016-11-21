@@ -38,3 +38,9 @@ Carriage
 
 #.  `PlacesRange <PlacesRange.rst>`_ **places_range**;
 
+#.  bool **has_places_for_pets**;
+
+#.  bool **are_pets_allowed**;
+
+#.  `boolean <boolean.rst>`_ **does_price_include_pets**;
+

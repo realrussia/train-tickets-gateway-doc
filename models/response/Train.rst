@@ -16,6 +16,8 @@ Train
 
 #.  string **train_name**;
 
+#.  string **train_name_translated** Should contain english name of train if we have the one. Else it should contain a `transliterated </articles/trainNumbers.rst>`_ **trainName**;
+
 #.  bool **ereg_is_available**;
 
 #.  string **services**;
