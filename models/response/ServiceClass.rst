@@ -27,10 +27,10 @@ ServiceClass
 #.  float **price** NOTE: this is approximate price, accurate price will be shown only in `TicketsController.bookTickets </controllers/TicketsController.rst#booktickets>`_;
 
 #.  float **min_price** NOTE: this is approximate price, accurate price will be shown only in `TicketsController.bookTickets </controllers/TicketsController.rst#booktickets>`_
-     Probably this is price for low seats;
+    Probably this is price for low seats;
 
 #.  float **min_price_for_child** This tag is optional. NOTE: this is approximate price, accurate price will be shown only in `TicketsController.bookTickets </controllers/TicketsController.rst#booktickets>`_
-     Probably this is price for low seats;
+    Probably this is price for low seats;
 
 #.  float **price_for_child** This tag is optional. It will be shown only for `InformationController.getTrain </controllers/InformationController.rst#gettrain>`_. NOTE: this is approximate price, accurate price will be shown only in `TicketsController.bookTickets </controllers/TicketsController.rst#booktickets>`_;
 
@@ -47,7 +47,7 @@ ServiceClass
 #.  float **min_child_cost** This tag is optional. Minimal RZHD cost of children's tariff;
 
 #.  string **international_service_class** International service class. Can be specified for some international trains.
-     It should be sent with booking request in `ServiceClass </models/response/ServiceClass.rst>`_;
+    It should be sent with booking request in `ServiceClass </models/response/ServiceClass.rst>`_;
 
 #.  bool **is_the_whole_coupe_booking_available** Availability to book a whole coupe. At the beginning of September 16 the feature available only on Moscow - Riga route.;
 
