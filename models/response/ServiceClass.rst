@@ -10,6 +10,8 @@ ServiceClass
 
 #.  string **services**;
 
+#.  string **available_tariffs**;
+
 #.  string\[] **service_tags**;
 
 #.  string **train_thread_number** Some service classes can have different train number than whole `Train </models/response/Train.rst>`_ . You should specify this train number to book tickets in this service class. Example of this you can see on the train 055 from Moscow(8631) to Orsha(9778). Train number is `transliterated </articles/trainNumbers.rst>`_;
