@@ -14,7 +14,9 @@ bookTickets
 ----
 Method: POST
 
-Use this method to start the booking operation. If successful, a temporary order will be created and selected places will be reserved. See `additional notes </articles/bookTicketsNotes.rst>`_ for this method.
+Use this method to start the booking operation. If successful, a temporary order will be created and selected places will be reserved.
+    See `additional notes </articles/bookTicketsNotes.rst>`_ for this method.
+    The permanent order is also created at this stage with partial data about the booking.
 
 Parameters:
 
@@ -32,7 +34,10 @@ confirm
 ----
 Method: GET
 
-Use this method to confirm an incomplete booking (bookTickets_). After confirmation, a permanent order will be created and money will be taken from your account.
+Use this method to confirm an incomplete booking (bookTickets_). After confirmation, a permanent order will receive all necessary and money will be taken from your account.
+    If some problems with confirmation occur the permanent order will be marked as successful and money will be taken from your account.
+    To update the incorrect confirmed order it needs to resend the confirmation request. Or contact out support
+    See `problems on confirmation </articles/problemsOnConfirmation.rst>`_ for more details
 
 Parameters:
 

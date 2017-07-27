@@ -6,6 +6,9 @@ BookTicketsResult
 
 #.  int **pre_order_id** Id of temporary booking order;
 
+#.  int **order_id** Id of booking order
+    For the manual issue solve;
+
 #.  `Train <Train.rst>`_ **train**;
 
 #.  string **buying_time** Time of request;
