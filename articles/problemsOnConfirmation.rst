@@ -1,7 +1,6 @@
-
-===
+====
 Problems on confirmation
-===
+====
 
 The booking process consists of two parts:
 

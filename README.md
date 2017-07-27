@@ -36,8 +36,8 @@ use [getReport](./controllers/InformationController.rst#getreport)
 
  * [The list of carriages' services](./controllers/ReferenceController.rst#services) has been changed. Old IDs are not valid any more. 
     Now it contains useful descriptions. Responses that contain [ServiceClass](./models/response/ServiceClass.rst#services)
-    now have new IDS in property **services**
- * After [booking of tickets](./controllers/TicketsController.rst#bookticets) the permanent order creates.
+    now have new IDs in property **services**
+ * After [booking of tickets](./controllers/TicketsController.rst#booktickets) the permanent order creates.
     
     See [problems on confirmation](./articles/problemsOnConfirmation.rst) 
     and [BookTicketsResult:order_id](./models/response/BookTicketsResult.rst) for more details
